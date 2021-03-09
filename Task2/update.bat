@@ -1,3 +1,4 @@
 @echo off
-powershell -ExecutionPolicy ByPass -command "git pull | Out-File C:\Users\master\Documents\GitHub\Kiselev\pull.txt"
+powershell -ExecutionPolicy ByPass -command "git pull"
+powershell -ExecutionPolicy ByPass -command "git checout main"
 pause
