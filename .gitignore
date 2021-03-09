@@ -1,4 +1,5 @@
 ### C ###
+.vs/
 # Object files
 *.o
 *.ko
